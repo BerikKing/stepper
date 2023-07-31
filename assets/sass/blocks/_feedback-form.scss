@@ -1,0 +1,62 @@
+.feedback_form {
+    min-height: 700px;
+    padding: 120px 0 120px 0;
+    background: url(../img/form-bg.png) center (center/cover) no-repeat;
+    &-wrapper {
+        display: flex;
+        flex-direction: column;
+        &-title {
+            color: #03121D;
+            text-align: center;
+            font-size: 56px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+        }
+        &-subtitle {
+            margin-top: 24px;
+            text-align: center;
+            color: #03121D;
+            font-size: 24px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+            span {
+                color: #EB211A;
+            }
+        }
+        &-form {
+            margin: 0 auto;
+            margin-top: 48px;
+            display: flex;
+            flex-direction: column;
+            width: 321px;
+            label {
+                margin-top: 24px;
+                color: #6B6B6B;
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 20px
+            }
+            input {
+                width: 312px;
+                margin-top: 6px;
+                padding: 12px 16px;
+            }
+        }
+        
+    }
+    .privacy_policy {
+        text-align: center;
+        margin-top: 16px;
+        color: #6B6B6B;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        a {
+            color: #6B6B6B;
+        }
+    }
+}

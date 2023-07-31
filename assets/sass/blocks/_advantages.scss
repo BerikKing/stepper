@@ -1,0 +1,110 @@
+.advantages {
+    min-height: 2200px;
+    padding: 120px 0 120px 0;
+    background: url("../img/bg-dark.png") center (center/cover) no-repeat;
+   
+    &_wrapper {
+        &_inner {
+            margin: auto;
+            width: 771px;
+            margin-top: 72px;
+            display: flex;
+            justify-content: space-between;
+            &-main {
+                // width: 164px;
+                display: flex;
+                justify-content: center;
+                flex-direction: column;
+                align-items: center;
+                &-img {
+                    display: block;
+                    margin: 0 auto;
+                }
+                &-descr {
+                    color: #111;
+                    text-align: center;
+                    font-size: 24px;
+                    font-weight: 400;
+                    line-height: 24px;
+                    margin-top: 16px;
+                }
+            }
+            
+        }
+        &-about-product {
+            width: 1320px;
+            height: 700px;
+            margin-top: 112px;
+            background: url('../img/bg3.png') center (center/cover) no-repeat;
+            
+            &-container {
+                width: 1096px;
+                height: 90%;
+                margin: 0 auto;
+                display: flex;
+                align-items: center;
+                &-video {
+                    iframe {
+                        width: 536px;
+                        height: 304px;
+                        border-radius: 8px;
+                    }
+                }
+                &-descr {
+                    margin-left: 56px;
+                    &-title {
+                        color: #111;
+                        text-align: start;
+                        font-size: 56px;
+                        font-style: normal;
+                        font-weight: 700;
+                    }
+                    &-title-descr {
+                        margin-top: 24px;
+                        color: #111;
+                        font-size: 16px;
+                        font-weight: 400;
+                        line-height: 30px;
+                    }
+                }
+            }
+            
+            
+        }
+        &-comparison {
+            min-height: 1004px;
+            width: 100%;
+            background: url('../img/bg4.png') center (center/cover) no-repeat;
+            padding: 134px 112px 0 112px;
+            &-title {
+                color: #111;
+                font-size: 56px;
+                font-weight: 700;
+                line-height: 120%;
+            }
+            &-descr {
+                margin-top: 40px;
+                color: #111;
+                font-size: 24px;
+                font-weight: 400;
+                line-height: 32px; /* 133.333% */
+            }
+            &-images {
+                margin-top: 32px;
+                display: flex;
+                justify-content: space-between;
+                &-v1, &-v2 {
+                    &-descr {
+                        margin-top: 16px;
+                        color: #111;
+                        font-size: 24px;
+                        font-weight: 400;
+                        line-height: 24px;
+                    }
+                }
+                
+            }
+        }
+    }
+    
+}

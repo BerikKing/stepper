@@ -1,0 +1,72 @@
+.header {
+    height: 104px;
+    padding: 16px 0 16px 0;
+    border-bottom: 1px solid #B0B0B0;
+    &_wrapper {
+        height: 76px;
+        display: flex;
+        justify-content: space-between;
+        .menu {
+            width: 500px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            a {
+                text-decoration: none;
+                color: #111;
+                font-size: 16px;
+                font-weight: 400;
+                letter-spacing: 0.32px;
+                }
+            }
+            .contact {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: flex-start;
+                .phone_number {
+                    a { 
+                        color: #EB211A;
+                        font-size: 20px;
+                        font-weight: 700;
+                        text-transform: uppercase;
+                        text-decoration: none;
+                        text-align: start;
+                    }  
+                }
+                .phone_number_descr {
+                    color: #111;
+                    font-size: 12px;
+                    font-weight: 400;
+                    line-height: 116%;
+                }
+            }
+            .social-lang {
+                display: flex;
+                align-items: center;
+                .social {
+                    display: flex;
+                    align-items: center;
+                    margin-right: 16px;
+                    &_telegram {
+                        margin-right: 8px;
+                    }
+                }
+                .lang {
+                    display: flex;
+                    align-items: center;
+                    margin-left: 16px;
+                    a {
+                        text-decoration: none;  
+                        font-size: 16px;
+                        font-weight: 400;
+                        text-transform: uppercase;
+                        color: #111; 
+                    }
+                    &_flag {
+                        margin-left: 8px;
+                    }
+                }
+            }
+    }    
+}

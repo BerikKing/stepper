@@ -1,0 +1,76 @@
+.contacts {
+    min-height: 693px;
+    padding: 120px 0 144px 0;
+    background: url(".././img/contact_bg.png") center (center/cover) no-repeat;
+    &_wrapper {
+        // display: flex;
+        .map {
+            iframe {
+                border-radius: 8px;
+                border: 1px solid #b0b0b0;
+            }
+        }
+        &_addresses {
+            display: flex;
+            justify-content: space-around;
+            &-title {
+                color: #111;
+                font-size: 56px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: normal;
+            }
+            &-address {
+                display: flex;
+                flex-direction: column;
+                margin-bottom: 50px;
+                &_1 {
+                    display: flex;
+                }
+                &-name {
+                    margin-left: 16px;
+                    color: #111;
+                    font-size: 24px;
+                    font-style: normal;
+                    font-weight: 600;
+                    line-height: normal;
+                }
+            }
+            address {
+                margin-top: 12px;
+                color: rgba(0, 0, 0, 0.8);
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 24px;
+                text-decoration-line: underline;
+            }
+            .working_hours {
+                margin: 0 0 50px 100px;
+                &_open {
+                    display: flex;
+                    &-name {
+                        margin-left: 12px;
+                        color: #111;
+                        font-size: 24px;
+                        font-style: normal;
+                        font-weight: 600;
+                        line-height: normal;
+                    }
+                }
+                &-name-1,
+                &-name-2 {
+                    margin-top: 12px;
+                    color: rgba(0, 0, 0, 0.8);
+                    font-size: 16px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 24px;
+                }
+                &-name-2 {
+                    margin-top: 32px;
+                }
+            }
+        }
+    }
+}
